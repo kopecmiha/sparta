@@ -119,3 +119,6 @@ def update_time(request):
         return HttpResponse(status=204)
     else:
         return HttpResponse(status=405)
+
+def check(request):
+    return HttpResponse(status=200)
