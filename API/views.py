@@ -121,4 +121,4 @@ def update_time(request):
         return HttpResponse(status=405)
 
 def check(request):
-    return HttpResponse(status=200)
+    return HttpResponse(status=205)
